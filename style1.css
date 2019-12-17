@@ -1,0 +1,24 @@
+div
+{
+  width:100%;
+  margin:20px;
+  margin-top: 0px;
+  margin-left:0px;
+  margin-right:0px;
+}
+#d1
+{
+	height:150px; background-color: #ff4da5;
+}
+#d2
+{	
+	width: 60%; float:left; height:400px; background-color: #ff037e;
+}
+#d3
+{
+	width: 38.5%; float: right; height:400px; background-color: #ce0468;
+}
+#d4
+{
+	height:100px; clear:both; background-color: #802755;
+}
