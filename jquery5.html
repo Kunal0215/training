@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQUERRY 5</title>
+    <link rel="stylesheet" type="text/css" href="stylej1.css">
+  <script src="jquery.js"></script>
+  <script>
+    $(document).ready(function(){
+     $("#d5").click(function(){
+      $('#d6').css("display","block");
+      })
+     $('span').click(function(){
+        $('#d6').css("display","none"); 
+   })	});
+  </script>
+</head>
+
+  <body>
+	<main>
+	<div id="d1">Header</div>
+		<div id="d2">Sidebar</div>
+		<div id="d3">Main Content</div>
+		<div id="d4">Extra Content</div>
+		<div id="d5">Footer</div>
+	<div id="d6" style="position:fixed;
+				 background-color:rgba(0,0,0,0.9);
+				 z-index:1;
+				 display:none;
+				 width:100%;
+				 height:100%;
+				 text-align:center;
+				 color:white;">
+	<h1 style="text-align:right;	margin:50px;	font-size:60px;	    color:white;"></h1>
+		<h1>I AM POP UP !</h1>
+	</div>
+	</main>
+</body>
+</html>
+

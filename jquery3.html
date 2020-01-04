@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JQUERY 3</title>
+
+<script src="jquery.js"></script>
+<script>
+ $(document).ready(function(){
+  $('button').click(function(){
+     if($.trim($('#fn').val()) == '' )
+     {alert("please fill all the fields");}
+     if($.trim($('#ln').val()) == '' )
+     {alert("please fill all the fields");}
+     });    });
+</script>
+
+<style>
+  input[type=text], select 
+  {
+      width: 15%;
+      padding: 5px 5px;
+      border: 1px solid #ccc;
+  }
+</style>
+</head>
+
+<body>
+  <form >
+    <label for="fn">First Name</label>
+     <br><br>
+    <input type="text" id="fn">
+    <br><br>
+    <label for="ln">Last Name</label>
+     <br><br>
+    <input type="text" id="ln">
+     <br><br>
+    <button>Submit</button>
+  </form>
+</body>
+</html>

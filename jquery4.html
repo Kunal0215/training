@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>	
+  <title>JQUERRY 4</title>
+  
+  <link rel="stylesheet" type="text/css" href="stylej2.css">
+  <script src="jquery.js"></script>
+  
+  <script>
+  $(document).ready(function()
+  {
+    $("#d1").click(function(){
+       $(this).css("background-color", "blue");
+    });
+    $("#d2").click(function(){
+      $("h1").text("LEFTBAR");
+    });
+    $("#d4").click(function(){
+      $("#d3").fadeOut();
+    });   
+   });
+  </script>
+  </head>
+  
+  <body>
+  <main>
+    <div id="d1">Header</div>
+	<div id="d2"><h1>Sidebar</h1></div>
+	<div id="d3">Main Content</div>
+	<div id="d4">Extra Content</div>
+	<div id="d5">Footer</div>
+  </body>
+</html>

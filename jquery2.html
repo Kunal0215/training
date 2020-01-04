@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JQUERRY 2</title>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function(){
+   $("#scroll").click(function(){
+    $("#page").slideDown("slow");
+    }); });
+</script>
+
+<style>
+  #scroll
+    { background-color:lightgreen;
+      text-align:center; 
+      width:56.5%;
+      height:30%;
+    }
+  #page
+    { padding: 50px;
+      background-color:lightblue;
+      width:50%;
+      height:30%;
+      display: none;
+      text-align:center;
+    }
+</style>
+</head>
+
+<body>
+ <div id="scroll">Click me to slide pannel</div>
+ <div id="page">Hello World!</div>
+</body>
+</html>
